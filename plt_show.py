@@ -17,8 +17,8 @@ plt.ylabel(eixo_y)
 # plt.bar(x2, y2, label="Grupo 2")
 
 # Gráfico de scatter
-plt.scatter(x, y, label="Meus pontos", color="r")
-plt.plot(x, y, color="red")
+plt.plot(x, y, color="red", linestyle="-")
+plt.scatter(x, y, label="Meus pontos", color="r", marker="*", s=100)
 
 plt.legend()
 plt.show()
